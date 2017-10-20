@@ -1,0 +1,23 @@
+
+/*Applying suitable background color to page*/
+body{
+	background-color: #ECF1F4;
+}
+
+/*Setting margin for the login and register divs holding respective forms*/
+#regDiv{
+	margin: 5px;
+}
+
+/*Setting margin property for the register and login forms*/
+#reg{
+	margin: 5px;
+}
+
+/*Positioning form to center of screen*/
+.vertical-center {
+     position: absolute;
+     top: 50%;
+     left:78.5%;
+     transform: translate(-50%,-50%);
+}

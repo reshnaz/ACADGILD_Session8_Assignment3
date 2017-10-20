@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<title>S-8 Assignment-3</title>
+</head>
+
+<body>
+	<!-- Intro to jQuery -->
+	<center>
+		<h1 style="margin-left: 60px">Enter Student Information</h1><br>
+		<h5 style="margin-left: 60px">It is necessary to login to your account to sign-up for a course.</h5>
+	</center>
+	<br><br>
+
+	<!-- Using bootstrap -->
+	<!-- Our main div that holds all of our main content -->
+	<div class="container-fluid col-sm-11 col-md-11 vertical-center">
+
+		<!-- Div holding reistration form -->
+		<!-- This is just a dummy form. We will use this form to demonstrate the use of jQuery tooltip function. -->
+		<div class="col-sm-5 col-md-5" id="regDiv">
+			<!-- Registration form -->
+			<form role="form" id="reg">
+				<h4 style="font-weight: bold;">ARE YOU NEW? <span style="color: #3519A8">REGISTER</span></h4>
+				<br>
+				<!-- All input fields for registration ~~~Start~~~ -->
+				<div class="form-group">
+					<label>Name:</label>
+					<input type="text" name="name" id="name" class="form-control input-sm" title="Please enter your name" required>
+				</div>
+				<div class="form-group">
+					<label>Email:</label>
+					<input type="Email" name="email" id="email" class="form-control input-sm" title="Please enter a valid e-mail address" required>
+				</div>
+				<div class="form-group">
+					<label>Password:</label>
+					<input type="password" name="pwd" id="pwd" class="form-control input-sm" title="Please enter password of your choice" required>
+				</div>
+				<div class="form-group">
+					<label>Confirm Password:</label>
+					<input type="password" name="cpwd" id="cpwd" class="form-control input-sm" title="Please re-enter password to confirm" required>
+				</div>
+				<div class="form-group">
+					<button id="signup" class="btn btn-primary" style="float: right;">Register</button>
+				</div>
+				<!-- All input fields for registration ~~~End~~~ -->
+			</form>	
+		</div>			
+	</div>
+</body>
+</html>
